@@ -47,4 +47,14 @@ landRegistry.AddParcel(parcel)`
 * Traditional search looking through every book on every shelf (without Indexing). and
 * This program/system (with Indexing) is like using the library's computer system to instantly locate a book by it's code.
 
+## usage of this program
+* To clone the repo,
+* Ensure that you have Go install on your device
+* `git clone <url>`
+* cd to the clone Directory
+* open it on the IDE of your choice
+* run this program on your terminal: `go run main.go`
+* run the test on your terminal: `go test ./registry/ -v`
+
+
 
