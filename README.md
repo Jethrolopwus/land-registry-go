@@ -36,7 +36,8 @@ landRegistry.AddParcel(parcel)`
         landRegistry.AddParcel(parcel)
     }(i)
     }`
-This makes querrying the data very efficient by:
+    
+*This makes querrying the data very efficient by:
 1. Instant Access
 2. Memory organization
 3. Concurrency Support
