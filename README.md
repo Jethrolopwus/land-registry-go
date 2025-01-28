@@ -2,9 +2,9 @@
 ### This project is an example of how Indexing basically work by making blockchain data searchable and accessible in Go lang
 
 ## USer's Guide/Understanding the program
-*In this program, the indexing mechanism happens in the landRegistry struct. 
-*The map data structure acts as the indexer. It uses(uint64)ParcelNumber as the key to instandtly find parcels.
-*you can think of it like a filling cabinet where each drawer has it unigue number.
+* In this program, the indexing mechanism happens in the landRegistry struct. 
+* The map data structure acts as the indexer. It uses(uint64)ParcelNumber as the key to instandtly find parcels.
+* you can think of it like a filling cabinet where each drawer has it unigue number.
 ## How indexing works in this main program
 ### Single Record Operation
 * This occur in the addParcel function in main.go file. when you add this parcel, it's stored in the map with key = 1.
@@ -37,7 +37,7 @@ landRegistry.AddParcel(parcel)`
     }(i)
     }`
     
-*This makes querrying the data very efficient by:
+* This makes querrying the data very efficient by:
 1. Instant Access
 2. Memory organization
 3. Concurrency Support
