@@ -22,7 +22,7 @@
     } 
 landRegistry.AddParcel(parcel)`
 ### Concurrent Access(multiple records)
-* This shows how indexer handles multiple operations with each parcel is added to the map concurrently.
+* This shows how indexer handles multiple operations which each parcel is added to the map concurrently.
 * Each parcel is still instantly accessible by it's number(parcelNumber) and the mutex ensure safe access to the map.
 
 ` for i := 0; i < 10; i++ {
