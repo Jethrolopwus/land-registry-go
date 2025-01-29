@@ -48,7 +48,7 @@ func main() {
             defer wg.Done()
             parcel := models.Parcel{
                 ParcelNumber:     uint64(i + 100),
-                OwnerName:        fmt.Sprintf("Owner %d", i),
+                OwnerName:        fmt.Sprintf("Owner %d lopwus", i),
                 LegalDescription: fmt.Sprintf("Plot %d Giring Distric Jos south", i),
                 AssessedValue:    uint64(200000 + i*1000),
             }
